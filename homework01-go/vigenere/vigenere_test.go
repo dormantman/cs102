@@ -17,13 +17,6 @@ func TestEncryptVigenere(t *testing.T) {
 		t.Fatalf("Expected '%s' but got '%s'", expected_result, result)
 	}
 
-// 	result = EncryptVigenere("Python3.6", "a")
-// 	expected_result = "Python3.6"
-//
-// 	if result != expected_result {
-// 		t.Fatalf("Expected '%s' but got '%s'", expected_result, result)
-// 	}
-
 	result = EncryptVigenere("ATTACKATDAWN", "LEMON")
 	expected_result = "LXFOPVEFRNHR"
 
@@ -46,13 +39,6 @@ func TestDecryptVigenere(t *testing.T) {
 	if result != expected_result {
 		t.Fatalf("Expected '%s' but got '%s'", expected_result, result)
 	}
-
-// 	result = DecryptVigenere("Python3.6", "a")
-// 	expected_result = "Python3.6"
-//
-// 	if result != expected_result {
-// 		t.Fatalf("Expected '%s' but got '%s'", expected_result, result)
-// 	}
 
 	result = DecryptVigenere("LXFOPVEFRNHR", "LEMON")
 	expected_result = "ATTACKATDAWN"

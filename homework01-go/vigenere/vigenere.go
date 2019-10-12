@@ -2,12 +2,10 @@ package vigenere
 
 func EncryptVigenere(plaintext string, keyword string) string {
 	var ciphertext string
-	var change rune
-	var symbol rune
 
 	for index, char := range plaintext {
 		if (char >= 'A' && char <= 'Z') || (char >= 'a' && char <= 'z') {
-			change = rune(keyword[index%len(keyword)])
+			change := rune(keyword[index%len(keyword)])
 
 			if 'a' <= char && char <= 'z' {
 				change -= 'a'
@@ -15,7 +13,7 @@ func EncryptVigenere(plaintext string, keyword string) string {
 				change -= 'A'
 			}
 
-			symbol = rune(char) + change
+			symbol := rune(char) + change
 			if ('A' <= char && char <= 'Z') && (symbol > 'Z') {
 				symbol -= 26
 			}
@@ -34,12 +32,10 @@ func EncryptVigenere(plaintext string, keyword string) string {
 
 func DecryptVigenere(ciphertext string, keyword string) string {
 	var plaintext string
-	var change rune
-	var symbol rune
 
 	for index, char := range ciphertext {
 		if (char >= 'A' && char <= 'Z') || (char >= 'a' && char <= 'z') {
-			change = rune(keyword[index%len(keyword)])
+			change := rune(keyword[index%len(keyword)])
 
 			if 'a' <= char && char <= 'z' {
 				change -= 'a'
@@ -47,7 +43,7 @@ func DecryptVigenere(ciphertext string, keyword string) string {
 				change -= 'A'
 			}
 
-			symbol = rune(char) - change
+			symbol := rune(char) - change
 			if ('a' <= char && char <= 'z') && (symbol < 'a') {
 				symbol += 26
 			}
