@@ -11,7 +11,7 @@
 | Number | Name | Python | GoLang |
 | ------ | ------ | ------ | ------ |
 | 01 | Encryption algorithms | ✓ | ✓|
-| 02 | Solver Sudoku | × | × |
+| 02 | Solver Sudoku | ✓ | ✓ |
 | 03 | C-extensions | × | × |
 | 04 | Game «Life» | × | × |
 | 05 | Work with VK API | × | × |
