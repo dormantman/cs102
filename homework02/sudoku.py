@@ -72,7 +72,9 @@ def get_block(grid: List[List[str]], pos: Tuple[int, int]) -> List[str]:
     ['2', '8', '.', '.', '.', '5', '.', '7', '9']
     """
     block = []
-    row_count, col_count = pos[0] // 3 * 3, pos[1] // 3 * 3
+
+    row, col = pos
+    row_count, col_count = row // 3 * 3, col // 3 * 3
 
     for row in range(row_count, row_count + 3):
         block += grid[row][col_count: col_count + 3]
