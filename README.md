@@ -12,12 +12,11 @@
 | ------ | ------ | ------ | ------ |
 | 01 | Encryption algorithms | ✓ | ✓|
 | 02 | Solver Sudoku | ✓ | ✓ |
-| 03 | C-extensions | × | × |
-| 04 | Game «Life» | × | × |
-| 05 | Work with VK API | × | × |
-| 06 | Bot for messenger Telegram | × | × |
-| 07 | Hacker News Personalization | × | × |
-| 08 | Note taking app | × | × |
-| 09 | Simple asynchronous server | × | × |
-| 10 | Simple asynchronous web framework | × | × |
-| 11 | Web Socket Chat | × | × |
+| 03 | Game «Life» | × | × |
+| 04 | Work with VK API | × | × |
+| 05 | Bot for messenger Telegram | × | × |
+| 06 | Hacker News Personalization | × | × |
+| 07 | Note taking app | × | × |
+| 08 | Simple asynchronous server | × | × |
+| 09 | Simple asynchronous web framework | × | × |
+| 10 | Web Socket Chat | × | × |
