@@ -35,7 +35,9 @@ class Console(UI):
         screen = curses.initscr()
 
         running = True
-        while running:
+        while (
+                self.life.is_changing and not self.life.is_max_generations_exceeded
+        ) and running:
             try:
                 screen.clear()
 
