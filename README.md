@@ -12,7 +12,7 @@
 | ------ | ------ | ------ | ------ |
 | 01 | Encryption algorithms | ✓ | ✓|
 | 02 | Solver Sudoku | ✓ | ✓ |
-| 03 | Game «Life» | × | × |
+| 03 | Game «Life» | ✓ | × |
 | 04 | Work with VK API | × | × |
 | 05 | Bot for messenger Telegram | × | × |
 | 06 | Hacker News Personalization | × | × |
