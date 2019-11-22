@@ -14,7 +14,7 @@
 | 02 | Solver Sudoku | ✓ | ✓ |
 | 03 | Game «Life» | ✓ | × |
 | 04 | Work with VK API | × | × |
-| 05 | Bot for messenger Telegram | × | × |
+| 05 | Bot for messenger Telegram | ✓ | × |
 | 06 | Hacker News Personalization | × | × |
 | 07 | Note taking app | × | × |
 | 08 | Simple asynchronous server | × | × |
