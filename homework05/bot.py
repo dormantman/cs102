@@ -12,7 +12,7 @@ import config
 
 bot = telebot.TeleBot(config.access_token)
 
-# apihelper.proxy = config.proxy
+apihelper.proxy = config.proxy
 
 DEFAULT_GROUP = 'K3140'
 
@@ -78,7 +78,7 @@ class Schedule:
     def load_data(self):
         page_content = get_schedule_page(self.group)
 
-        soup = BeautifulSoup(page_content, "html5lib")
+        soup = BeautifulSoup(page_content, "html.parser")
 
         days_content = soup.find_all('div', attrs={'class': 'rasp_tabl_day'})
 
